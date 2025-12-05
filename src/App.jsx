@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { rdClient } from './services/realDebrid';
 import { Home, Download, HardDrive, Key, LogOut } from 'lucide-react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from '@vercel/analytics/react';
 import './index.css';
 
 // Components (Placeholders for now)
@@ -17,6 +18,7 @@ function App() {
     <ToastProvider>
       <AppContent />
       <SpeedInsights />
+      <Analytics />
     </ToastProvider>
   );
 }
