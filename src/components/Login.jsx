@@ -31,7 +31,7 @@ function Login({ onLogin }) {
   return (
     <div className="login-container">
       <div className="logo-container">
-        <img src="/logo.png" alt="Robofuse Logo" className="app-logo" />
+        <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Robofuse Logo" className="app-logo" />
       </div>
       <div className="card login-card animate-fade-in">
         <div className="login-header">

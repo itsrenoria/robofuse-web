@@ -1,4 +1,4 @@
-const BASE_URL = 'https://api.real-debrid.com/rest/1.0';
+const BASE_URL = '/api';
 
 class RealDebridClient {
   constructor() {
