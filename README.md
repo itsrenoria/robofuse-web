@@ -9,7 +9,6 @@ A modern, mobile-first web application for managing your Real Debrid account. Bu
 - **Dashboard**: View account status, fidelity points, and expiration.
 - **Content**: Manage your active content, add magnets, select files, and download.
 - **Downloads**: Access your unrestricted downloads history.
-- **Smart Parsing**: Clean and readable filenames with metadata badges.
 - **Mobile First**: Fully responsive design optimized for all devices.
 - **Dark Mode**: Sleek, premium dark interface.
 
