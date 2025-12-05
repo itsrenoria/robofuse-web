@@ -1,16 +1,44 @@
-# React + Vite
+# robofuse web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, mobile-first web application for managing your Real Debrid account. Built with React, Vite, and a focus on premium aesthetics.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://robofuse-web.vercel.app](https://robofuse-web.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Dashboard**: View account status, fidelity points, and expiration.
+- **Content**: Manage your active content, add magnets, select files, and download.
+- **Downloads**: Access your unrestricted downloads history.
+- **Smart Parsing**: Clean and readable filenames with metadata badges.
+- **Mobile First**: Fully responsive design optimized for all devices.
+- **Dark Mode**: Sleek, premium dark interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework**: React + Vite
+- **Styling**: Vanilla CSS (Custom Design System)
+- **Icons**: Lucide React
+- **Deployment**: Vercel (Recommended)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+1.  Clone the repository.
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+3.  Run the development server:
+    ```bash
+    npm run dev
+    ```
+
+## Deployment
+
+### Vercel (Recommended)
+This project includes a `vercel.json` configuration to handle CORS proxying for the Real Debrid API.
+1.  Import the project into Vercel.
+2.  Deploy.
+
+## License
+
+MIT
